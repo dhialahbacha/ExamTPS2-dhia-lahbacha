@@ -1,3 +1,9 @@
+Data=[1,3,5]
 
-def somme(T):\n S=0\n for t in T:\n  S+=t\n return S
-Data=[1,3,5]\nSom=sum(Data)\nprint('la somme est :', Som)
+if Data:
+    print('la somme est:', sum(Data))
+    print('le min est:', min(Data))
+    print('le max est:', max(Data))
+else:
+    print('dossier vide')
+
